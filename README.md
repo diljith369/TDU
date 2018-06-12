@@ -2,14 +2,16 @@
 
 ## Getting Started
 
-##### git clone https://github.com/diljithishere/tdu.git
+##### git clone https://github.com/diljithishere/TDU.git
 
 ##### Update your reverse IP and port when calling this createmsbuildtemplate() function.
 
 
-### Build the binary 
+### Build the binary (Windows)
 #### Move to the src folder 
 #### go build tdu.go 
+### Build the binary (Linux)
+#### GOOS=windows GOARCH=386 go build tdu.go
 #### Run the binary 
 
 
